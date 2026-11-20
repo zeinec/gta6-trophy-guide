@@ -1,5 +1,8 @@
 # Leonida Trophy Guide — GTA VI
 
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/zeinec/gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/zeinec/gta6-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 [![owner](https://img.shields.io/badge/owner-zeinec-ff2e88)](https://github.com/zeinec)
 [![repo](https://img.shields.io/badge/repo-gta6--trophy--guide-7b2ff7)](https://github.com/zeinec/gta6-trophy-guide)
 [![make.fun referral](https://img.shields.io/badge/make.fun-ha8nyspb-2de2c5)](https://make.fun)
