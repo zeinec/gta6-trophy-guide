@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI · All 55 Trophies</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+<script src="roadmap.js" defer></script>
+<script src="sources.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="ico-trophy" viewBox="0 0 64 64">
+<path d="M18 6h28v12c0 11-6 19-14 19S18 29 18 18V6z" fill="currentColor"/>
+<path d="M18 10c-9 0-11 9-4 13 2 1.5 4 2 4 2M46 10c9 0 11 9 4 13-2 1.5-4 2-4 2" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+<rect x="29" y="37" width="6" height="10" fill="currentColor"/>
+<rect x="22" y="47" width="20" height="6" rx="2" fill="currentColor"/>
+<rect x="17" y="53" width="30" height="6" rx="2" fill="currentColor"/>
+</symbol>
+<symbol id="ico-star" viewBox="0 0 24 24">
+<path d="M12 1.5l2.9 6.2 6.6.7-4.9 4.5 1.3 6.6L12 16.4 6.1 19.5l1.3-6.6L2.5 8.4l6.6-.7z" fill="currentColor"/>
+</symbol>
+</defs></svg>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="wanted" aria-label="Wanted level 3 of 5">
+      <svg class="star on"><use href="#ico-star"/></svg>
+      <svg class="star on"><use href="#ico-star"/></svg>
+      <svg class="star on"><use href="#ico-star"/></svg>
+      <svg class="star"><use href="#ico-star"/></svg>
+      <svg class="star"><use href="#ico-star"/></svg>
+      <span class="wanted-label">WANTED</span>
+    </div>
+    <h1>LEONIDA<br>TROPHY GUIDE</h1>
+    <p class="tagline">Grand Theft Auto VI · PlayStation 5 · all 55 trophies, cited step by step</p>
+    <p class="neon">★ VICE CITY ★</p>
+  </div>
+</header>
+
+<main>
+<section class="panel audit" id="auditPanel" aria-label="Audit panel">
+  <h2><span class="kicker">AUDIT — WHAT WE CHECKED</span><br>Every number below is computed from this guide's own data. Nothing is borrowed.</h2>
+  <div class="audit-grid">
+    <div class="stat"><span class="stat-num" id="auditSteps">–</span><span class="stat-label">guide steps, all cited</span></div>
+    <div class="stat"><span class="stat-num" id="auditGuides">–</span><span class="stat-label">of 55 guides cite sources</span></div>
+    <div class="stat"><span class="stat-num" id="auditMulti">–</span><span class="stat-label">steps cite 2+ sources</span></div>
+    <div class="stat"><span class="stat-num" id="auditDisputed">–</span><span class="stat-label">disputed points, shown two-sided</span></div>
+    <div class="stat"><span class="stat-num" id="auditUnconfirmed">–</span><span class="stat-label">unconfirmed methods, flagged</span></div>
+    <div class="stat"><span class="stat-num" id="auditSources">–</span><span class="stat-label">source pages read, 6 sites, 20 Nov 2026</span></div>
+  </div>
+  <p class="audit-note">55 trophies · 1 platinum, 2 gold, 6 silver, 46 bronze · 28 hidden · 1 possibly missable · 0 online · works fully offline.</p>
+</section>
+
+<nav class="tabs" role="tablist" aria-label="Guide sections">
+  <button class="tab-btn active" data-tab="tracker" role="tab">TRACKER</button>
+  <button class="tab-btn" data-tab="roadmap" role="tab">ROADMAP</button>
+  <button class="tab-btn" data-tab="missables" role="tab">MISSABLES</button>
+  <button class="tab-btn" data-tab="sources" role="tab">SOURCES</button>
+</nav>
+
+<section id="tab-tracker" class="tab active" aria-label="Trophy tracker">
+  <div class="tab-hero">
+    <img src="images/lucia.png" alt="Lucia — cartoon GTA VI key-art style" class="char" width="224" height="620">
+    <div class="hero-copy">
+      <h2>TRACKER <span class="hero-sub">— Lucia runs the checklist</span></h2>
+      <p>Tick a trophy off when it pops. Your checklist lives in this browser only — nothing leaves your device.</p>
+      <div class="big-progress" role="status" aria-label="Trophies earned">
+        <div class="big-progress-num"><span id="earnedCount">0</span><span class="big-progress-of"> / 55</span></div>
+        <div class="big-progress-bar"><div id="earnedBar" style="width:0%"></div></div>
+        <div class="big-progress-pct" id="earnedPct">0% to the platinum</div>
+      </div>
+      <div class="grade-counters" id="gradeCounters"></div>
+      <div class="stage-counters" id="stageCounters"></div>
+      <div class="collect-count" id="collectCount"></div>
+    </div>
+  </div>
+
+  <div class="missable-banner" role="alert">
+    <strong>⚠ MISSABLE WATCH —</strong> <b>Positive Mental Attitude</b> may be missable: do the Chapter 1 balcony meditation at Jason's house the morning Lucia offers it. Every other trophy stays available after the story. <a href="#tab=missables">See the Missables tab →</a>
+  </div>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search trophies…" aria-label="Search trophies">
+    <label class="spoiler-toggle"><input id="spoilerToggle" type="checkbox" checked> Hide story spoilers</label>
+    <div class="chips" id="filterChips">
+      <button data-filter="all" class="chip active">All 55</button>
+      <button data-filter="hidden" class="chip">PSN-hidden (28)</button>
+      <button data-filter="disputed" class="chip">Disputed</button>
+      <button data-filter="notearned" class="chip">Not earned</button>
+      <button data-filter="watch" class="chip">Watch</button>
+      <button data-filter="unconfirmed" class="chip">Unconfirmed</button>
+      <button data-filter="missable" class="chip">Missable</button>
+    </div>
+    <label class="sort-label">Sort
+      <select id="sortSelect">
+        <option value="roadmap">Roadmap order</option>
+        <option value="psn">PSN order</option>
+        <option value="grade">By grade</option>
+      </select>
+    </label>
+    <button id="exportBtn" class="btn">Export checklist (JSON)</button>
+    <button id="importBtn" class="btn">Import checklist</button>
+    <input id="importFile" type="file" accept="application/json" hidden>
+  </div>
+
+  <section class="panel map-panel" id="mapSection" aria-label="Leonida map">
+    <h3>LEONIDA — WHERE THINGS ARE</h3>
+    <p class="map-note">One map, fourteen pins. Every location-based trophy is pinned; tap a pin's number on a trophy card to light it up here.</p>
+    <svg id="leonidaMap" viewBox="0 0 1000 620" role="img" aria-label="Stylized map of Leonida with numbered location pins">
+      <defs>
+        <linearGradient id="seaGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#2de2c5"/><stop offset="1" stop-color="#1b6fd0"/>
+        </linearGradient>
+        <linearGradient id="landGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#ffe3b3"/><stop offset="1" stop-color="#ffb37a"/>
+        </linearGradient>
+        <radialGradient id="sunGrad" cx="0.5" cy="0.5" r="0.5">
+          <stop offset="0" stop-color="#ffd34d"/><stop offset="0.6" stop-color="#ff7a3d"/><stop offset="1" stop-color="#ff2e88"/>
+        </radialGradient>
+      </defs>
+      <rect width="1000" height="620" fill="url(#seaGrad)"/>
+      <circle cx="110" cy="80" r="48" fill="url(#sunGrad)" opacity="0.9"/>
+      <path d="M150 130 C220 90 320 85 420 95 C520 105 640 85 760 95 C850 102 920 120 945 160 C965 195 975 250 960 300 C950 340 930 380 915 420 C900 460 880 500 840 530 C800 560 720 575 640 570 C560 565 480 555 400 545 C320 535 250 510 200 470 C150 430 120 380 115 320 C110 260 115 180 150 130 Z" fill="url(#landGrad)" stroke="#1b1035" stroke-width="4" stroke-linejoin="round"/>
+      <ellipse cx="480" cy="300" rx="75" ry="42" fill="#2de2c5" stroke="#1b1035" stroke-width="3"/>
+      <ellipse cx="228" cy="565" rx="55" ry="16" fill="#ffe3b3" stroke="#1b1035" stroke-width="3"/>
+      <ellipse cx="330" cy="585" rx="38" ry="12" fill="#ffe3b3" stroke="#1b1035" stroke-width="3"/>
+      <ellipse cx="112" cy="555" rx="40" ry="14" fill="#ffe3b3" stroke="#1b1035" stroke-width="3"/>
+      <g stroke="#1b1035" stroke-width="3" stroke-dasharray="8 6" fill="none" opacity="0.55">
+        <path d="M150 320 L480 300 L800 380"/>
+        <path d="M420 100 L480 300 L640 560"/>
+        <path d="M480 300 L762 545"/>
+      </g>
+      <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#1b1035" text-anchor="middle">
+        <text x="462" y="152" font-size="20">MOUNT KALAGA</text>
+        <text x="700" y="168" font-size="19">AMBROSIA</text>
+        <text x="250" y="205" font-size="19">KELLY COUNTY</text>
+        <text x="172" y="282" font-size="18">PORT GELLHORN</text>
+        <text x="480" y="306" font-size="15" font-style="italic">Lake Leonida</text>
+        <text x="800" y="452" font-size="26">VICE CITY</text>
+        <text x="878" y="398" font-size="16">OCEAN BEACH</text>
+        <text x="700" y="520" font-size="16">VCIA</text>
+        <text x="240" y="602" font-size="16">LEONIDA KEYS</text>
+        <text x="112" y="592" font-size="13">MILE ZERO</text>
+      </g>
+      <g id="pinLayer"></g>
+    </svg>
+    <ol class="pin-legend" id="pinLegend"></ol>
+  </section>
+
+  <div class="grid" id="trophyGrid"></div>
+
+  <section class="panel detail" id="detailPanel" hidden aria-label="Trophy guide detail"></section>
+</section>
+
+<section id="tab-roadmap" class="tab" aria-label="Roadmap">
+  <div class="tab-hero">
+    <img src="images/jason.png" alt="Jason — cartoon GTA VI key-art style" class="char" width="191" height="620">
+    <div class="hero-copy">
+      <h2>ROADMAP <span class="hero-sub">— Jason walks the long road</span></h2>
+      <p>One playthrough, no online, no glitched trophies. About 200 hours if you follow the stages in order — the 100% checklist is the part that decides whether it is 200 or 300.</p>
+      <div class="meta-tiles" id="metaTiles"></div>
+    </div>
+  </div>
+  <div class="panel nextup" id="nextUpPanel">
+    <h3>NEXT UP — in roadmap order</h3>
+    <p class="map-note">The trophies to do first, in the order this guide plays them. <span class="badge missable">missable · do first</span> means it can be lost — everything else can wait.</p>
+    <div id="nextUpList"></div>
+  </div>
+  <div class="panel watch-panel" id="missableWatchPanel">
+    <h3>MISSABLE WATCH</h3>
+    <p id="missableWatchText"></p>
+  </div>
+  <div class="stages" id="stageCards"></div>
+  <div class="panel counts-panel">
+    <h3>COUNTED TROPHIES — trophy target vs 100% checklist target</h3>
+    <div id="countsTableRoadmap"></div>
+  </div>
+  <div class="panel platinum-panel" id="platinumPanel"></div>
+</section>
+
+<section id="tab-missables" class="tab" aria-label="Missables">
+  <div class="tab-hero">
+    <img src="images/duo.png" alt="Lucia and Jason back to back — cartoon GTA VI key-art style" class="char" width="219" height="500">
+    <div class="hero-copy">
+      <h2>MISSABLES <span class="hero-sub">— Lucia &amp; Jason watch your back</span></h2>
+      <p>Almost nothing in GTA VI can be missed — the story has no mission replay, but free roam after the story keeps every strand open. This tab shows the one exception, honestly, with both sides of the argument.</p>
+    </div>
+  </div>
+  <div class="panel pma-panel" id="pmaPanel">
+    <h3>⚠ POSITIVE MENTAL ATTITUDE — THE ONLY POSSIBLE MISSABLE</h3>
+    <p><b>What the sources say, both sides:</b> PowerPyx and KeenGamer flag a Chapter 1 balcony meditation at Jason's house — after the mission Down to Earth, Lucia says she will meditate, and if you follow her to the balcony and accept, the meditation counter goes up by 1. It is not marked as a meditation spot like the other 18, so whether it is required for the trophy is <b>unconfirmed</b>. PlanetGTA6, meanwhile, says no reliable missable list exists yet for this game.</p>
+    <p><b>Our advice:</b> do it in Chapter 1. It takes one minute, it costs nothing, and it removes the only risk on the whole list. Keep a manual save from the start of Chapter 1 and another from the end of each chapter — with 15 manual slots plus 1 autosave, there is room.</p>
+    <p><b>Everything else is safe:</b> the side-character strands (Andy, Kenton, Billy, Randy, Tyrone, Bret) all stay open after the story, and every collectible and activity trophy can be finished in free roam.</p>
+  </div>
+  <div class="panel matrix-panel">
+    <h3>STORY-GATED TROPHIES × CHAPTERS</h3>
+    <p class="map-note">Safe = pops here or stays available later · Last chance = start it in this chapter (one source warns the window follows story progress) · Never available = the content has not opened yet · Watch = needs confirming.</p>
+    <div class="matrix-wrap" id="missMatrix"></div>
+  </div>
+  <div class="panel gates-panel">
+    <h3>STORY GATES</h3>
+    <div id="storyGates"></div>
+  </div>
+  <div class="panel counts-panel">
+    <h3>COUNTS — the exact targets</h3>
+    <div id="countsTableMissables"></div>
+  </div>
+</section>
+
+<section id="tab-sources" class="tab" aria-label="Sources">
+  <div class="tab-hero">
+    <img src="images/cal.png" alt="Cal with his fishing rod — cartoon GTA VI key-art style" class="char" width="248" height="500">
+    <div class="hero-copy">
+      <h2>SOURCES <span class="hero-sub">— Cal checked every claim</span></h2>
+      <p>Every guide step cites at least one source page this guide actually read on 20 November 2026. Six pages, six sites. If two sources disagreed, the guide shows both sides instead of picking one.</p>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="chips" id="srcTypeChips">
+      <button data-srctype="all" class="chip active">All types</button>
+      <button data-srctype="guide" class="chip">Guides</button>
+      <button data-srctype="list" class="chip">Lists</button>
+    </div>
+    <div class="chips" id="srcRelChips">
+      <button data-srcrel="all" class="chip active">All reliability</button>
+      <button data-srcrel="high" class="chip">High</button>
+      <button data-srcrel="medium" class="chip">Medium</button>
+    </div>
+    <label class="sort-label">Sort
+      <select id="srcSortSelect">
+        <option value="used">Most used first</option>
+        <option value="site">By site name</option>
+      </select>
+    </label>
+  </div>
+  <div class="biblio" id="bibliography"></div>
+  <div class="panel matrix-panel">
+    <h3>TROPHY × SOURCE MATRIX — which source backs which trophy</h3>
+    <p class="map-note">A ✓ means at least one step of that trophy's guide cites that source. Every row has at least one ✓; 87 of the 148 steps cite two or more sources.</p>
+    <div class="matrix-wrap" id="sourceMatrix"></div>
+  </div>
+  <div class="panel disputes-panel" id="disputesPanel">
+    <h3>DISPUTES — where the sources disagree</h3>
+    <div id="disputesList"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p><b>Works offline.</b> This guide loads no images, fonts, scripts or data from the network — every file is inside the app. Your checklist is stored in your browser only.</p>
+  <p>Unofficial fan guide. Not affiliated with Rockstar Games or Take-Two Interactive. GTA, Grand Theft Auto and Rockstar are trademarks of their owners. Trophy names and descriptions are the official PlayStation list. Characters are original cartoon drawings in the spirit of the game's key art.</p>
+  <p>Sources read 20 November 2026 · Guide text written for this entry · Leonida Trophy Guide, 2026.</p>
+</footer>
+</body>
+</html>
